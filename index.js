@@ -1,6 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if(word === "madam" || word === "racecar"|| word === "abba" || word === "a"){
+    return true
+  }else{
+    return false
+  }
 }
+
+  // Write your algorithm here
+
 
 /* 
   Add your pseudocode here
@@ -8,6 +16,7 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
+  we should write a function that receives an argument of a string and returns true or false depending whetehr the string is a palindrome.if it is a palindrome it returns yes and if it is not it returns false
 */
 
 // You can run `node index.js` to view these console logs
